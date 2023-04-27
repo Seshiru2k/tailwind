@@ -14,7 +14,7 @@ const Navbar = () => {
             alignItems: "center",
             fontFamily: "Noto Sans, serif"
           }}>
-            <div className="px-4 sm:px-6 lg:px-8">
+            <div className="flex-col px-4 sm:px-6 lg:px-8 lg:flex-row">
                 <div className="flex flex-wrap items-center justify-between h-20">
                     <div className="flex flex-row flex-shrink-0 pl-20">
                         <img src="PUPLogo.png" alt="" height='80px' width='88px' />

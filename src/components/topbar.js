@@ -1,7 +1,7 @@
 function Topbar() {
     return (
       <nav
-        className="flex items-center justify-between pl-20 bg-#D87B6C text-black-l m-0"
+        className="flex lg:flex-row flex-col items-center justify-between pl-20 bg-#D87B6C text-black-l m-0"
         style={{
           lineHeight: "20px",
           fontWeight: 300,

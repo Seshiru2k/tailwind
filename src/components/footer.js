@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <>
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-col justify-center lg:flex-row">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div>
                 <div class="flex flex-col p-10 m-0">
