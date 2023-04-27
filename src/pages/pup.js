@@ -11,7 +11,6 @@ export default function home() {
     <>
         <Topbar />
         <Navbar />
-        <Rows />
         <div className="flex flex-wrap content-center justify-center h-auto mt-14">
                 <div className="flex flex-wrap w-3/4 h-auto center">
                     <div className="w-2/5 content-container">

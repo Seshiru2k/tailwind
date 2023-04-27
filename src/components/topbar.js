@@ -15,7 +15,7 @@ function Topbar() {
       >
           <div className="hidden lg:block">
             <ul className="flex justify-center space-x-1 p-lr">
-              <img src="govph.png" alt="" className="pr-4 pl-7" />
+              <img src="govph.png" alt="" className="pl-4 pr-4 hover:cursor-pointer hover:bg-red"/>
               <li className="pt-2">
                 <a href="#"></a>
                 <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Home</a>
