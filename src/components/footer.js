@@ -1,5 +1,7 @@
+import Container from "@/container/contentbox"
 const Footer = () => {
     return (
+        <Container>
         <>
         <div className="flex flex-col justify-center lg:flex-row">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -39,7 +41,8 @@ const Footer = () => {
                 
                 <div class="flex space-x-4">
                 <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class="fa fa-brands fa-facebook text-white text-lg"></i>
+                            {/* <i class="fa fa-brands fa-facebook text-white text-lg icon-medium-effect icon-effect-2"></i> */}
+                            <i class="fa fa-edit fa-facebook icon-medium-effect icon-effect-2 text-white hover:text-blue " style={{fontSize:'32px'}}></i>
                         </span>
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
                             <i class="fa fa-brands fa-twitter text-white"></i>
@@ -69,6 +72,7 @@ const Footer = () => {
         <section /> 
         <p class="flex justify-center">© 1998-2021 POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</p>
         </>
+        </Container>
     )
 }
 

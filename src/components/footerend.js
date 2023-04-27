@@ -1,5 +1,8 @@
+import Container from "@/container/contentbox"
+
 const Footerend = () => {
     return (
+        <Container>
         <>
             <div className="flex flex-col justify-center gap-40 lg:flex-row">
                 <div className="flex lg:flex-row">
@@ -33,6 +36,7 @@ const Footerend = () => {
                 </div>
             </div>
         </>
+    </Container>
     )
 }
 export default Footerend
