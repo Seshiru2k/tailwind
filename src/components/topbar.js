@@ -18,23 +18,23 @@ function Topbar() {
               <img src="govph.png" alt="" className="pl-4 pr-4 hover:cursor-pointer hover:bg-red"/>
               <li className="pt-2">
                 <a href="#"></a>
-                <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Home</a>
+                <a href="#" className="hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>Home</a>
               </li>
               <li className="pt-2">
                 <a href="#"></a>
-                <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Good Governance</a>
+                <a href="#" className="hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>Good Governance</a>
               </li >
               <li className="pt-2">
                 <a href="#"></a>
-                <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Transparency</a>
+                <a href="#" className="hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>Transparency</a>
               </li>
               <li className="pt-2">
                 <a href="#"></a>
-                <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>International Affairs</a>
+                <a href="#" className="hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>International Affairs</a>
               </li>
               <li className="pt-2">
                 <a href="#"></a>
-                <a href="#" className="font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
+                <a href="#" className="hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
               </li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ function Topbar() {
         </div>
         <div className="flex items-center pr-20">
           <a href="#"></a>
-          <a href="#" className="ml-auto font-semibold hover:text-white hover:cursor-pointer hover:bg-red text-ssm text-grayer" style={{ padding: '10px 16px' }}>Contact Us</a>
+          <a href="#" className="ml-auto hover:text-white hover:cursor-pointer hover:bg-red" style={{ padding: '10px 16px' }}>Contact Us</a>
         </div>
       </nav>
     );
