@@ -1,43 +1,35 @@
-import Container from "@/container/contentbox";
-
 function Topbar() {
     return (
-      <Container>
       <nav
-        className="flex flex-wrap items-center justify-between text-grey"
+        className="flex flex-wrap items-center justify-between bg-center bg-cover border-b-2 border-white text-gr"
         style={{
-          lineHeight: "23px",
-          fontWeight: 300,
-          color: "black",
-          overflowX: "hidden",
           backgroundImage: "url(bg.jpg)",
-          backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
           backgroundSize: "cover",
         }}
       >
-          <div className="mx-20">
-            <ul className="flex items-center">
-              <img src="govph.png" alt="" className="px-2 py-2 transition-all rounded text-grey bg-white-300 hover:bg-red"/>
-              <li className="pt-2">
+          <div className="pl-48 mx-auto">
+            <ul className="flex">
+              <li><img src="govph.png" alt="" className="px-2 pb-1 transition-all hover:bg-red"/></li>
+              <li className="">
                 <a href="#"></a>
-                <a href="#" className="py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Home</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Home</a>
               </li>
-              <li className="pt-2">
+              <li className="">
                 <a href="#"></a>
-                <a href="#" className="px-8 py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Good Governance</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Good Governance</a>
               </li >
-              <li className="pt-2">
+              <li className="">
                 <a href="#"></a>
-                <a href="#" className="px-8 py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Transparency</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Transparency</a>
               </li>
-              <li className="pt-2">
+              <li className="">
                 <a href="#"></a>
-                <a href="#" className="px-8 py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>International Affairs</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>International Affairs</a>
               </li>
-              <li className="pt-2">
+              <li className="">
                 <a href="#"></a>
-                <a href="#" className="px-8 py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
               </li>
             </ul>
           </div>
@@ -45,12 +37,11 @@ function Topbar() {
           <a href="/src/pages/contact-us.js"></a>
           <a href="#" className="text-xl font-bold tracking-wide"></a>
         </div>
-        <div className="flex items-center pr-20">
+        <div className="flex items-center mx-auto pr-72">
           <a href="#"></a>
-          <a href="#" className="px-8 py-2 transition-all text-grey bg-white-300 hover:bg-red" style={{ padding: '10px 16px' }}>Contact Us</a>
+          <a href="#" className="flex items-center transition-all text-gr bg-white-300 hover:bg-red hover:text-white font-I text-[10pt] py-2"style={{ padding: '10px 16px' }}>Contact Us</a>
         </div>
       </nav>
-     </Container>
     );
   }
   export default Topbar;

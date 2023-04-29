@@ -1,8 +1,5 @@
-import Container from "@/container/contentbox";
-
 const Rows = () => {
     return (
-      <Container>
         <div>
           <div>
           <div class="flex flex-row justify-center pt-20 gap-20">
@@ -23,7 +20,6 @@ const Rows = () => {
           </div>
 
         </div>
-        </Container>
        );
     };
     export default Rows;

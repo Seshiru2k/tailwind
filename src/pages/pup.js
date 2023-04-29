@@ -1,18 +1,19 @@
 import Navbar from '@components/navbar.js'
+import Slider from "@/components/slider"
 import Footer from '@components/footer.js'
 import Topbar from '@/components/topbar'
 import Footerend from '@/components/footerend'
 import Rows from '@/components/rows'
-import Container from '@/container/contentbox.js'
+
 
 
 
 export default function home() {
   return (
     <>
-        <Container>
         <Topbar />
         <Navbar />
+        <Slider/>
         <Rows />
         <div className="flex flex-wrap content-center justify-center h-auto mt-14">
                 <div className="flex flex-wrap w-3/4 h-auto center">
@@ -96,7 +97,6 @@ export default function home() {
       <section class='bg-black'>
       <Footerend/>
       </section>
-      </Container>
     </>
   )
 } 

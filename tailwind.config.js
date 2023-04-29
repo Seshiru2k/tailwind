@@ -20,6 +20,12 @@ module.exports = {
         'grey': '#555',
         'gray-light': '#d3dce6',
         'lightgrey': '#E0E3E2',
+        'gray-dark': '#111',
+        'gray-light': '#888',
+        'cream': '#eee',
+        'gr': '#666',
+        'rd': '#800',
+        'bl': '#555555'
       },
 
       text:{
@@ -27,8 +33,9 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Graphik', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+        C: ['Cinzel', 'sans-serif'],
+        I: ['Inter', 'Noto Sans', 'sans-serif']
+
       },
       padding: {
         63: '15.5rem',
