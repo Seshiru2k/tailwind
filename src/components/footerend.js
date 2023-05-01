@@ -1,7 +1,7 @@
 const Footerend = () => {
     return (
             <>
-                <div className="flex flex-row justify-center gap-40 bg-gray-dark">
+                <div className="flex flex-col justify-center gap-10 bg-gray-dark lg:flex-row">
                     <div className="flex lg:flex-row">
                         <img src="govphseal.png" alt="" className="pt-2 h-44" />
                         <div>

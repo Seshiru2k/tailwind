@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex flex-col p-10">
                 <p className="pb-4 text-sm font-bold uppercase text-red">QUICK LINKS</p>
                 <div class="flex flex-col gap-2">
-                    <a href="" className="select-none text-gr text-textsize hover:underline hover:cursor-pointer ">About PUP</a>
+                    <a href="" className="select-none text-gr text-textsize hover:underline hover:cursor-pointer">About PUP</a>
                     <a href="" className="select-none text-gr text-textsize hover:underline hover:cursor-pointer">Admission Information</a>
                     <a href="" className="select-none text-gr text-textsize hover:underline hover:cursor-pointer">Branchesa and Campuses</a>
                     <a href="" className="select-none text-gr text-textsize hover:underline hover:cursor-pointer">Academic Programs</a>

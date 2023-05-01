@@ -20,7 +20,7 @@ const Navbar = () => {
             <h2 className="pb-3 text-base font-bold text-grey font-C text-blackish">
               The Country's 1st PolytechnicU
             </h2>
-            <div className="flex flex-row space-x-8 text-red-800 ">
+            <div className="flex flex-row space-x-8 text-red-800">
               <a href="#" className="font-bold text-rd font-C">About PUP</a>
               <a href="#" className="font-bold text-rd font-C">Academic</a>
               <a href="#" className="font-bold text-rd font-C">Students</a>

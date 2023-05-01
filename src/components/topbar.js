@@ -17,19 +17,19 @@ function Topbar() {
               </li>
               <li className="">
                 <a href="#"></a>
-                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Good Governance</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr hidden md:flex"style={{ padding: '10px 16px' }}>Good Governance</a>
               </li >
               <li className="">
                 <a href="#"></a>
-                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Transparency</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr hidden md:flex"style={{ padding: '10px 16px' }}>Transparency</a>
               </li>
               <li className="">
                 <a href="#"></a>
-                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>International Affairs</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr hidden lg:flex"style={{ padding: '10px 16px' }}>International Affairs</a>
               </li>
               <li className="">
                 <a href="#"></a>
-                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr"style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
+                <a href="#" className="flex items-center transition-all bg-white-300 hover:bg-red font-I text-[10pt] hover:text-white text-gr hidden md:flex"style={{ padding: '10px 16px' }}>Bid Notices and Invitation</a>
               </li>
             </ul>
           </div>
