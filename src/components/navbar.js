@@ -92,7 +92,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
               </button>
             </div>
           </div>
-          <div className="xl:mx-20 lg:mx-20 ml-96 font-I text-[8pt]">
+          <div className="xl:mx-20 lg:mx-20 lg:ml-96 font-I text-[8pt]">
             <div className="relative ">
               <div class="flex flex-row">
                 <input placeholder="  Type keyword here..." class="inputSearch" />

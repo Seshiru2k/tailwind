@@ -39,7 +39,7 @@ const Homepage = () => {
                                     <div class="text-rd hover:underline">
                                         <a href={announcement.link}>{announcement.title}</a>
                                     </div>
-                                        <p>Posted: {announcement.date}</p>
+                                    <p>Posted: {announcement.date}</p>
                                 </div>
                             ))}
                         </div>
@@ -79,14 +79,14 @@ const Homepage = () => {
                     <div className="flex flex-col flex-wrap content-center justify-center w-full content-container md:w-1/5">
                         {images.map((image, index) => (
                             <a href="#" key="" className="flex flex-wrap justify-center mb-2 img-container">
-                                <Image src={image.src} alt="" width={200} height={150} className="rounded-lg"/>
+                                <Image src={image.src} alt="" width={200} height={150} className="rounded-lg" />
                             </a>
                         ))}
                     </div>
                 </div>
             </div>
-            <section className="flex flex-col flex-wrap items-center justify-center m-6 space-y-4">
-                <div className='flex flex-row'>
+            {/* <section className="flex flex-col flex-wrap items-center justify-center my-6 space-y-4 xl:mx-8 embed-links sm:w-full">
+                <div className='flex flex-row embedResponsive sm:flex-col md:flex-col lg:flex-row'>
                     <div className="flex flex-wrap justify-center mt-10 border-b-[1px] border-grey">
                         <div className="flex justify-center w-3/4 h-auto">
                             <div className="mr-5">
@@ -95,9 +95,41 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center m-6 space-y-4">
-                        <iframe width="750" height="422" src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" title="The Observer Online: Tanglaw Fest 2023" frameborder="0" allow="accelerometer..." />
-                        <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/episode/6hSNhWq3gSGcSouucc8kl0?utm_source=generator" width="750" height="280" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <div class="flex flex-col space-y-4 items-center justify-center embed-links xl:m-6 pt-4">
+                        <iframe class="yt " data-height="350" src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" title="The Observer Online: Tanglaw Fest 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="spot md:mb-5" data-height="350" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/episode/6hSNhWq3gSGcSouucc8kl0?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section> */}
+            {/* <section className="flex flex-col flex-wrap items-center justify-center my-6 space-y-4 xl:mx-8 embed-links sm:w-full">
+                <div className="flex flex-row embedResponsive sm:flex-col md:flex-col lg:flex-row">
+                    <div className="flex flex-wrap justify-center mt-10 border-b-[1px] border-grey">
+                        <div className="flex justify-center w-full h-auto sm:w-3/4">
+                            <div className="mr-5">
+                                <a className="twitter-timeline" data-width="350" data-height="885" data-theme="dark" href="https://twitter.com/ThePUPOfficial?ref_src=twsrc%5Etfw"></a>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col space-y-4 items-center justify-center embed-links xl:m-6 pt-4">
+                        <iframe class="yt" data-height="350" src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" title="The Observer Online: Tanglaw Fest 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="spot" data-height="350" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/episode/6hSNhWq3gSGcSouucc8kl0?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section> */}
+            <section className="flex flex-col flex-wrap items-center justify-center my-6 space-y-4 xl:mx-6 embed-links sm:w-full">
+                <div className="flex flex-row embedResponsive sm:flex-col md:flex-col lg:flex-row">
+                    <div className="flex flex-wrap justify-center border-grey">
+                        <div className="flex justify-center w-full h-auto sm:w-3/4">
+                            <div className="mr-5">
+                                <a className="twitter-timeline" data-width="350" data-height="820" data-theme="dark" href="https://twitter.com/ThePUPOfficial?ref_src=twsrc%5Etfw"></a>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col space-y-4 items-center justify-center embed-links xl:m-6">
+                        <iframe class="yt" data-height="350" src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" title="The Observer Online: Tanglaw Fest 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="spot" data-height="350" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/episode/6hSNhWq3gSGcSouucc8kl0?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     </div>
                 </div>
             </section>

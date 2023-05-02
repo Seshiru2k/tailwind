@@ -4,18 +4,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,600,600italic,700italic,800italic');
 
-@media only screen and (min-width: 280px) and (max-width: 640px){
-    .navres{
+@media only screen and (min-width: 280px) and (max-width: 640px) {
+    .navres {
         width: 100%;
         display: flex;
         flex-direction: row;
 
     }
-    .navigation{
+
+    .navigation {
         width: 100%;
         display: flex;
         margin: 0;
         margin-left: 0%;
         margin-right: 0%;
     }
+
+    // .embedResponsive {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     margin: 0;
+    //     margin-left: 0;
+    //     margin-right: 0;
+    //     margin-bottom: 20px;
+    //     width: 100%;
+    //   }
+    //   .twitter-timeline,
+    //   .yt,
+    //   .spot {
+    //     width: 100%;
+    //     height: auto;
+    //   }
+    //   .twitter-timeline {
+    //     margin-top: 10px;
+    //     margin-bottom: 10px;
+    //     max-width: 350px;
+    //   }
+}
+
+// @media only screen and (min-width: 281px) and (min-width: 640px) {
+//     .yt {
+//       width: 750px;
+//       height: 422px;
+//     }
+//     .spot {
+//       width: 750px;
+//       height: 280px;
+//     }
+//   }
+
+@media only screen and (max-width: 280px) {
+    .embedResponsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .twitter-timeline,
+    .yt,
+    .spot {
+        width: 100%;
+        height: auto;
+    }
+
+    .twitter-timeline {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 281px) {
+    .yt {
+        width: 750px;
+        height: 422px;
+    }
+
+    .spot {
+        width: 750px;
+        height: 280px;
+    }
+}
+.yt {
+    width: 750px;
+    height: 570px;
+}
+
+.spot {
+    width: 750px;
+    height: 280px;
 }
