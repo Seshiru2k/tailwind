@@ -21,7 +21,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
       <div className="flex items-center justify-center h-20">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
-            <a href="/">
+            <a href="">
               <img src={"PUPLogo.png"} alt="PUP Logo" height="80" width="80" />
             </a>
             <div className="ml-3">
