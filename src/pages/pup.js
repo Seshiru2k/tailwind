@@ -85,7 +85,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-            <section className="flex flex-col items-center justify-center m-6 space-y-4">
+            <section className="flex flex-col flex-wrap items-center justify-center m-6 space-y-4">
                 <div className='flex flex-row'>
                     <div className="flex flex-wrap justify-center mt-10 border-b-[1px] border-grey">
                         <div className="flex justify-center w-3/4 h-auto">
