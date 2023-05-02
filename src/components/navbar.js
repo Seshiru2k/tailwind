@@ -18,8 +18,8 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex items-center justify-center h-20">
-        <div className="flex items-center justify-between py-4">
+      <div className="flex items-center justify-center h-20 navres lg:flex-row sm:flex-row md:flex-row xl:flex-row 2xl:flex-row">
+        <div className="flex items-center justify-between py-4 navigation">
           <div className="flex items-center">
             <a href="">
               <img src={"PUPLogo.png"} alt="PUP Logo" height="80" width="80" />
@@ -92,7 +92,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
               </button>
             </div>
           </div>
-          <div className="mx-20 ml-96 font-I text-[8pt]">
+          <div className="xl:mx-20 lg:mx-20 ml-96 font-I text-[8pt]">
             <div className="relative ">
               <div class="flex flex-row">
                 <input placeholder="  Type keyword here..." class="inputSearch" />

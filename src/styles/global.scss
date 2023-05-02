@@ -4,3 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,600,600italic,700italic,800italic');
 
+@media only screen and (min-width: 280px) and (max-width: 640px){
+    .navres{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        margin: 0;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
