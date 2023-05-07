@@ -63,7 +63,7 @@ const Footer = () => {
                 <p class="text-bl"> Phone: <strong class="text-bl">(+63 2) 5335-1PUP (5335-1787) or 5335-1777</strong></p>
                 <p class="text-bl"> Email: <strong class="text-bl">inquire@pup.edu.ph</strong></p>
                 <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">PUPWEBSITE 10</p>
-                <p class="text-gr"> Terms of Use | Privacy Statement | About PUPWebSite</p>
+                <p class="text-gr"> <a class="hover:underline">Terms of Use</a> | <a class="hover:underline">Privacy Statement</a> | <a class="hover:underline">About PUPWebSite</a></p>
             </div>
         </div>
         <section />
