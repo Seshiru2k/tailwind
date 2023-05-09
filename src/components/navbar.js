@@ -19,6 +19,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
       }}
     >
       <div className="flex items-center justify-center h-20 navres">
+        <div className="w-full">
         <div className="flex items-center justify-between py-4 2xl:pr-60 2xl:pl-72 navigation">
           <div className="flex items-center">
             <a href="">
@@ -37,9 +38,9 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
                   <a href="#" className="font-bold text-rd font-C">Academics</a>
                   <a href="#" className="font-bold text-rd font-C">Admissions</a>
                   <a href="#" className="font-bold text-rd font-C">Research</a>
+                  </div>
                 </div>
               </div>
-            </div>
             <div className="flex md:hidden">
               <button
                 onClick={toggleExpansion}
@@ -80,7 +81,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
               </button>
             </div>
           </div>
-          <div className="xl:mx-20 lg:mx-20 2xl:ml-96 font-I text-[8pt] xl:pl-60">
+          <div className="xl:mx-20 lg:mx-20 font-I text-[8pt] xl:pl-60">
             <div className="relative ">
               <div class="flex flex-row">
                 <input placeholder="  Type keyword here..." class="inputSearch" />
@@ -94,6 +95,7 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
               </div>
             </div>
           </div>
+        </div>
         </div>
         <div
           className={`${isExpanded ? 'block' : 'hidden'

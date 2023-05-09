@@ -27,9 +27,9 @@ const Homepage = () => {
             <Navbar />
             <Slider />
             <Icons />
-            <div className="flex flex-wrap content-center justify-center mt-14 font-I">
+            <div className="flex flex-wrap justify-center mt-14 font-I">
                 <div className="flex flex-wrap w-3/4 h-auto content-container-container">
-                    <div className="w-full overflow-y-auto h-96 content-container md:w-2/5">
+                    <div className="w-full overflow-y-auto h-96 content-text md:w-2/5">
                         <div className="title">
                             <h1 className="mb-2 font-bold text-rd ">Announcements and Advisories</h1>
                         </div>
@@ -44,7 +44,7 @@ const Homepage = () => {
                             ))}
                         </div>
                     </div>
-                    <div className=" w-7/10 content-container md:w-2/5">
+                    <div className=" w-7/10 content-text md:w-2/5">
                         <div className="title">
                             <h1 className="mb-2 font-bold text-rd">Latest News from the University</h1>
                             <div className="slider-buttons-container">
@@ -76,17 +76,17 @@ const Homepage = () => {
                             </Carousel>
                         </div>
                     </div>
-                    <div className="flex flex-col flex-wrap content-center justify-center w-full content-container md:w-1/5">
+                    <div className="flex flex-col flex-wrap content-center justify-center w-full content-text md:w-1/5">
                         {images.map((image, index) => (
-                            <a href="#" key="" className="flex flex-wrap justify-center mb-2 img-container">
+                            <a href="#" key="" className="flex flex-wrap justify-center mb-2 img-content">
                                 <Image src={image.src} alt="" width={200} height={150} className="rounded-lg" />
                             </a>
                         ))}
                     </div>
                 </div>
             </div>
-            <section className="flex flex-col flex-wrap items-center justify-center my-6 space-y-4 2xl:mx-6 embed-links sm:w-full">
-                <div className="flex flex-row embedResponsive sm:flex-col md:flex-col lg:flex-row">
+            <section className="flex flex-col flex-wrap items-center justify-center my-6 space-y-4 embed-links sm:w-full">
+                <div className="flex flex-row items-center justify-center embedResponsive sm:flex-col md:flex-col lg:flex-row">
                     <div className="flex flex-wrap justify-center tw border-grey sm:mb-4">
                         <div className="flex justify-center w-full h-auto">
                             <div className="twtBox">
@@ -95,7 +95,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col w-full xl:m-6">
+                    <div class="flex flex-col w-full xl:mb-6 xl:mt-6 xl:m-6 pt-6">
                         <div className='flex flex-col items-center justify-center space-y-4 music'>
                             <iframe class="yt" data-height="350" src="https://www.youtube.com/embed/EVp6JBwTudk?list=UU3D3_jrSi3sYmx5L5p5RAwA" title="The Observer Online: Tanglaw Fest 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <iframe class="spot" data-height="350" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/episode/6hSNhWq3gSGcSouucc8kl0?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
