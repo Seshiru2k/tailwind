@@ -35,7 +35,7 @@ function Topbar() {
           <a href="/src/pages/contact-us.js"></a>
           <a href="#" className="text-xl font-bold tracking-wide"></a>
         </div>
-        <div className="flex items-center mx-auto md:pr-72 lg:pl-72">
+        <div className="flex items-center mx-auto xl:pr-72 xl:pl-72">
           <a href="#"></a>
           <a href="#" className="flex items-center transition-all text-gr bg-white-300 hover:bg-red hover:text-white font-I text-[10pt] py-2" style={{ padding: '10px 16px' }}>Contact Us</a>
         </div>

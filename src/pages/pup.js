@@ -4,11 +4,12 @@ import Footer from '@components/footer.js'
 import Topbar from '@/components/topbar'
 import Footerend from '@/components/footerend'
 import Icons from '@/components/icons'
-import Image from 'next/image';
-import { useState } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { pupAnnouncements, pupNews, images } from "@/heading/datas";
+import Image from 'next/image'
+import Fab from '@/components/fab.js'
+import { useState } from 'react'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { pupAnnouncements, pupNews, images } from "@/heading/datas"
 
 
 const Homepage = () => {
@@ -23,6 +24,7 @@ const Homepage = () => {
     };
     return (
         <>
+
             <Topbar />
             <Navbar />
             <Slider />
@@ -110,6 +112,8 @@ const Homepage = () => {
             <section class='bg-black'>
                 <Footerend />
             </section>
+
+            <Fab/>
         </>
     )
 }

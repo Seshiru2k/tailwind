@@ -35,7 +35,7 @@ const Footer = () => {
                     
                 </div>
             </div>
-            <div className="flex flex-col p-10">
+            <div className="flex flex-col p-10 footerMargin">
                 <p className="pb-4 text-sm font-bold uppercase text-red">KEEP IN TOUCH</p>
                 
                 <div class="flex space-x-4">
