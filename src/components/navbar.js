@@ -37,31 +37,79 @@ const Navbar = ({ logoSrc, bgImageSrc }) => {
                     <div className="dropdown">
                       <a href="#" className="font-bold text-rd font-C">About PUP</a>
                       <div className="dropdown-content">
-                        <p>Learn about the history and mission of PUP.</p>
+                        <p>University Profile</p>
+                        <p>Vision and Mission</p>
+                        <p>History</p>
+                        <p>Logo and Symbols</p>
+                        <p>Hymn</p>
+                        <p>Annual Reports</p>
+                        <p>Awards and Recognitions</p>
+                        <p>Contact Us</p>
+                        <p>Maps</p>
+                        <p>University Code</p>
+                        <p>Institutional Development Plan</p>
+                        <p>Quality Policy Statement</p>
+                        <p>Branches and Satellite Campuses</p>
+                        <p>Memorandum Orders</p>
+                        <p>Executive Orders</p>
+                        <p>CODI Manual</p>
+                        <p>Citizens Charter</p>
+                        <p>Office Memorandum</p>
+                        <p>Strategic Performance Management <br/>System</p>
                       </div>
                     </div>
                     <div className="dropdown">
                       <a href="#" className="font-bold text-rd font-C">Academics</a>
                       <div className="dropdown-content">
-                        <p>Explore our undergraduate and graduate degree programs.</p>
+                        <p>Academic Programs</p>
+                        <p>Open University System</p>
+                        <p>Graduate Studies</p>
+                        <p>Colleges</p>
+                        <p>Institute of Technology</p>
+                        <p>Senior High School</p>
+                        <p>Laboratory High School</p>
+                        <p>Library Services</p>
+                        <p>Online Public Access Catalog</p>
+                        <p>Quality Assurance</p>
+                        <p>Teaching and Learning Development</p>
+                        <p>PUP eMabini Learning Portal</p>
+                        <p>OVPAA Advisories</p>
                       </div>
                     </div>
                     <div className="dropdown">
-                      <a href="#" className="font-bold text-rd font-C">Admissions</a>
+                      <a href="#" className="font-bold text-rd font-C">Students</a>
                       <div className="dropdown-content">
-                        <p>Find out how to apply to PUP and what we look for in applicants.</p>
+                        <p>Student Services</p>
+                        <p>Student Organizations</p>
+                        <p>Student Publications</p>
+                        <p>Student Council</p>
+                        <p>Student Handbook</p>
+                        <p>University Registrar</p>
+                        <p>PUP Student Information System</p>
+                        <p>PUP Online Document Request System</p>
+                        <p>PUP Bookstore</p>
+                        <p>Downloadable Forms</p>
+                        <p>Online Job Postings</p>
                       </div>
                     </div>
                     <div className="dropdown">
                       <a href="#" className="font-bold text-rd font-C">Research</a>
                       <div className="dropdown-content">
-                        <p>Discover the groundbreaking research being done at PUP.</p>
+                        <p>Researchers</p>
+                        <p>Extensions</p>
+                        <p>Institutional Planning</p>
+                        <p>Institutional Property</p>
+                        <p>Research Publications</p>
+                        <p>Science and Technology</p>
+                        <p>Cultural and Language</p>
+                        <p>Strategic Foresight and Innovation</p>
+                        <p>Human and Social Development</p>
+                        <p>Gender and Development</p>
+                        <p>PUP Online Journal System</p>
+                        <p>PUP Online Survey for Faculty Evaluation</p>
+                        <p>University Thesis and Disseration Manual</p>
                       </div>
                     </div>
-                    {/* <a href="#" className="font-bold text-rd font-C">About PUP</a>
-                  <a href="#" className="font-bold text-rd font-C">Academics</a>
-                  <a href="#" className="font-bold text-rd font-C">Admissions</a>
-                  <a href="#" className="font-bold text-rd font-C">Research</a> */}
                   </div>
                 </div>
               </div>

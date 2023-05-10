@@ -34,7 +34,8 @@ module.exports = {
 
       fontFamily: {
         C: ['Cinzel', 'sans-serif'],
-        I: ['Inter', 'Noto Sans', 'sans-serif']
+        I: ['Inter', 'Noto Sans', 'sans-serif'],
+        N: ['Noto Sans', 'sans-serif']
 
       },
       padding: {
