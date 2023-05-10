@@ -1,7 +1,7 @@
 function Topbar() {
   return (
     <nav
-      className="flex flex-wrap items-center justify-between bg-center bg-cover border-b-2 border-white text-gr"
+      className="flex flex-wrap items-center bg-center bg-cover border-b-2 border-white text-gr"
       style={{
         backgroundImage: "url(bg.jpg)",
         backgroundPosition: "center center",

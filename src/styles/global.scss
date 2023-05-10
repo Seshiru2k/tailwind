@@ -19,6 +19,7 @@
         margin-left: 0%;
         margin-right: 0%;
     }
+
     .content-text {
         height: 650px;
         display: flex;
@@ -28,7 +29,8 @@
         padding-right: 10px;
         width: 100%;
     }
-    .footerMargin{
+
+    .footerMargin {
         width: 100%;
     }
 
@@ -89,11 +91,13 @@
 .announcements a:hover {
     text-decoration: underline;
 }
-@media screen and (min-width: 641px) and (max-width: 768px){
-    .content-text{
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .content-text {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .content-container-container {
         flex-direction: column;
@@ -130,7 +134,8 @@
         margin-bottom: 30px;
         margin-top: 100px;
     }
-    .hideSearch{
+
+    .hideSearch {
         display: none;
     }
 
@@ -219,6 +224,7 @@
 
 }
 
+
 .twitter-timeline {
     width: 350px;
     margin: 0;
@@ -232,129 +238,28 @@
 
 }
 
-
-
-// .adminButton {
-//     height: 60px;
-//     width: 60px;
-//     background-color: #800;
-//     border-radius: 50%;
-//     display: block;
-//     color: #fff;
-//     text-align: center;
-//     position: relative;
-//     z-index: 1;
-//   }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
   
-//   .adminButton2 {
-//     height: 60px;
-//     width: 60px;
-//     background-color: #ffe499;
-//     border-radius: 50%;
-//     display: block;
-//     color: #fff;
-//     text-align: center;
-//     position: relative;
-//     z-index: 1;
-//   }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    padding: 16px;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
   
-//   .adminButton i {
-//     font-size: 22px;
-//   }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
   
-//   .adminButton2 i {
-//     font-size: 22px;
-//   }
-  
-//   .adminButtons {
-//     position: absolute;
-//     width: 100%;
-//     bottom: 120%;
-//     text-align: center;
-//   }
-  
-//   .adminButtons2 {
-//     position: absolute;
-//     width: 100%;
-//     bottom: 120%;
-//     text-align: center;
-//   }
-  
-//   .adminButtons a {
-//     display: block;
-//     width: 45px;
-//     height: 45px;
-//     border-radius: 50%;
-//     text-decoration: none;
-//     margin: 10px auto 0;
-//     line-height: 1.15;
-//     color: #fff;
-//     opacity: 0;
-//     visibility: hidden;
-//     position: relative;
-//     box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-//   }
-  
-//   .adminButtons2 a {
-//     display: block;
-//     width: 45px;
-//     height: 45px;
-//     border-radius: 50%;
-//     text-decoration: none;
-//     margin: 10px auto 0;
-//     line-height: 1.15;
-//     color: #fff;
-//     opacity: 0;
-//     visibility: hidden;
-//     position: relative;
-//     box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-//   }
-  
-  
-//   .adminButtons a:hover {
-//     transform: scale(1.05);
-//   }
-  
-//   .adminButtons2 a:hover {
-//     transform: scale(1.05);
-//   }
-  
-  
-//   .adminActions a i {
-//     position: absolute;
-//     color:#fff;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//   }
-  
-//   .adminActions2 a i {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//   }
-  
-
-  
-//   .adminActions {
-//     position: fixed;
-//     bottom: 130px;
-//     right: 35px;
-//   }
-  
-//   .adminActions2 {
-//     position: fixed;
-//     bottom: 55px;
-//     right: 35px;
-//   }
-  
-//   .body-margin {
-//     max-width: 90%;
-//   }
-  
-  
-  
+  .dropdown-content p {
+    margin: 0;
+  }
 .adminButton {
     height: 60px;
     width: 60px;
@@ -365,9 +270,9 @@
     text-align: center;
     position: relative;
     z-index: 1;
-  }
-  
-  .adminButton2 {
+}
+
+.adminButton2 {
     height: 60px;
     width: 60px;
     background-color: #ffe499;
@@ -377,31 +282,31 @@
     text-align: center;
     position: relative;
     z-index: 1;
-  }
-  
-  .adminButton i {
+}
+
+.adminButton i {
     font-size: 22px;
-  }
-  
-  .adminButton2 i {
+}
+
+.adminButton2 i {
     font-size: 22px;
-  }
-  
-  .adminButtons {
+}
+
+.adminButtons {
     position: absolute;
     width: 100%;
     bottom: 120%;
     text-align: center;
-  }
-  
-  .adminButtons2 {
+}
+
+.adminButtons2 {
     position: absolute;
     width: 100%;
     bottom: 120%;
     text-align: center;
-  }
-  
-  .adminButtons a {
+}
+
+.adminButtons a {
     display: block;
     width: 45px;
     height: 45px;
@@ -414,9 +319,9 @@
     visibility: hidden;
     position: relative;
     box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-  }
-  
-  .adminButtons2 a {
+}
+
+.adminButtons2 a {
     display: block;
     width: 45px;
     height: 45px;
@@ -429,41 +334,137 @@
     visibility: hidden;
     position: relative;
     box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-  }
-  
-  
-  .adminButtons a:hover {
+}
+
+
+.adminButtons a:hover {
     transform: scale(1.05);
-  }
-  
-  .adminButtons2 a:hover {
+}
+
+.adminButtons2 a:hover {
     transform: scale(1.05);
-  }
-  
-  
-  .messenger a i {
+}
+
+
+.messenger a i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .up a i {
+}
+
+.up a i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  
-  .messenger {
+}
+
+
+.messenger {
     position: fixed;
-    bottom: 130px; right: 35px;
-  }
-  
-  .up {
+    bottom: 130px;
+    right: 35px;
+}
+
+.up {
     position: fixed;
-    bottom: 55px; right: 35px;
+    bottom: 55px;
+    right: 35px;
+}
+
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #800;
+    transition: .2s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(20px) saturate(168%);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff url(https://www.pup.edu.ph/resources/images/photos/bg1.jpg);
+    background-size: cover;
+    position: fixed;
+    width: 900px;
+    height: 600px;
+    left: 50%;
+    top: 330px;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    animation: float-in .5s forwards;
+    padding: 10px;
+}
+
+.btnCancel {
+    border: none;
+    display: flex;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    transform: rotate(45deg);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #000;
+    opacity: .2;
+}
+
+.btnCancel:hover {
+    opacity: .5;
+}
+
+.modal-content p {
+    color: #666;
+}
+
+.modal-items-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 0 15px 0 15px;
+}
+
+.modal-links-container {
+    transition: .2s;
+}
+
+.modal-links-container p {
+    color: white;
+}
+
+.services-widget {
+    position: fixed;
+    bottom: 210px;
+    right: 60px;
+    z-index: 9999;
   }
   
- 

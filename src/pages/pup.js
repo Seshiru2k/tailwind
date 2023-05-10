@@ -6,6 +6,7 @@ import Footerend from '@/components/footerend'
 import Icons from '@/components/icons'
 import Image from 'next/image'
 import Fab from '@/components/fab.js'
+import Modal from '@/components/modal'
 import { useState } from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -24,7 +25,7 @@ const Homepage = () => {
     };
     return (
         <>
-
+            <Modal/>
             <Topbar />
             <Navbar />
             <Slider />
