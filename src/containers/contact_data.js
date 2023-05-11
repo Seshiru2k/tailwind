@@ -1,7 +1,10 @@
 import { textContent, contactData, studentRecords, contacts, branches, openUniv, contents } from '@heading/contactus.js'
 
+
 const Contact = () => {
     return (
+      <>
+      
       <div className="w-full px-4 py-8 container-body">
         <div className="flex flex-row">
           <div className="w-9/12 ">
@@ -156,6 +159,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      </>
     )
   }
   export default Contact

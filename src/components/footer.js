@@ -38,26 +38,37 @@ const Footer = () => {
             <div className="flex flex-col p-10 footerMargin">
                 <p className="pb-4 text-sm font-bold uppercase text-red">KEEP IN TOUCH</p>
                 
-                <div class="flex space-x-4">
-                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            {/* <i class="fa fa-brands fa-facebook text-white text-lg icon-medium-effect icon-effect-2"></i> */}
-                            <i class="fa fa-edit fa-facebook icon-medium-effect icon-effect-2 text-white hover:text-blue " style={{fontSize:'32px'}}></i>
+                <div class="flex space-x-4 flex-container">
+                <a href="https://www.facebook.com/ThePUPOfficial" target="_blank">
+                <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-face text-white">
+                            <i class="fab fa-facebook-f text-white"  style={{ fontSize: '32px'}} ></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class="fa fa-brands fa-twitter text-white"></i>
+                        </a>
+                        <a href="https://twitter.com/ThePUPOfficial" target="_blank">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-twit">
+                            <i class="fab fa-brands fa-twitter text-white"  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class=" fa fa-brands fa-youtube text-white"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/pupcreatv" target="_blank">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-yout">
+                        <i class="fab fa-brands fa-youtube text-white" style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class="fa fa-brands fa-linkedin text-white"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/school/polytechnic-university-of-the-philippines/" target="_blank">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-twit">
+                            <i class="fab fa-solid fa-linkedin text-white"  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class="fa fa-solid fa-rss text-white"></i>
+                        </a>
+                        <a href="https://www.pup.edu.ph/rss/" target="_blank">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-orange">
+                            <i class="fa fa-solid fa-rss text-white "  style={{ fontSize: '32px'}}></i>
                         </span>
-                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-blue-500">
-                            <i class="fa fa-brands fa-spotify text-white "></i>
+                        </a>
+                        <a href="https://open.spotify.com/show/6x7hlv9qZX8VpwMIRAAiRb?si=h7yM8PeXR6qxSjQIs2GveA&dl_branch=1&nd=1" target="_blank">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red hover:bg-green">
+                            <i class="fab fa-brands fa-spotify text-white "  style={{ fontSize: '32px'}}></i>
                         </span>
+                        </a>
                 </div>
                 <p className="pt-5 pb-4 text-sm font-bold uppercase text-red">CONTACT US</p>
                 <p class="text-bl"> Phone: <strong class="text-bl">(+63 2) 5335-1PUP (5335-1787) or 5335-1777</strong></p>

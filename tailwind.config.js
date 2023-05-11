@@ -25,7 +25,10 @@ module.exports = {
         'cream': '#eee',
         'gr': '#666',
         'rd': '#800',
-        'bl': '#555555'
+        'bl': '#555555',
+        'twit': '#1DA1F2',
+        'face': '#4267B2',
+        'yout' : '#FF0000'
       },
 
       text:{
