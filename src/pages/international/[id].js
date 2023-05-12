@@ -19,7 +19,7 @@ const Articles = ({ article }) => {
       <Topbar />
       <Navbar />
       <div>
-        <div className="border-b">
+        <div>
           <div className="flex place-items-start container-body">
             <h2 className="mt-6 mb-6 ml-2 text-lg">University News No.{router.asPath}</h2>
           </div>
